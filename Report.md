@@ -119,8 +119,7 @@ houses. The correlation between `Overall Qual` and `SalePrice` is **0.81**, and 
 engineered `qual_x_area` feature pushes this to **0.84** — confirming that combining
 quality and size captures more signal than either alone.
 
-![SalePrice by Overall Quality and House Age Group](report_chart3.png)
-
+![SalePrice by Overall Quality and House Age Group](report_chart/report_chart3.png)
 **Finding 2 — New houses cost 2.2x more than very old houses**
 
 The groupby analysis revealed a clear and consistent pricing pattern across age groups:
@@ -136,8 +135,7 @@ The groupby analysis revealed a clear and consistent pricing pattern across age 
 New houses average $283k versus $129k for Very Old — a 2.2x difference.
 This confirms that the binning decision in Phase 2 was meaningful.
 
-![Mean SalePrice by House Age Group](report_chart2.png)
-
+![Mean SalePrice by House Age Group](report_chart/report_chart2.png)
 **Finding 3 — Size and quality jointly drive price (Best Chart)**
 
 The scatter plot below encodes three variables at once: living area (x-axis),
@@ -150,8 +148,7 @@ Additionally, 91.8% of high-quality houses (Overall Qual >= 7) sell above the
 dataset median of $160,000 — making quality a near-reliable indicator of
 above-median performance.
 
-![SalePrice vs Gr Liv Area coloured by Quality](report_chart1.png)
-
+![SalePrice vs Gr Liv Area coloured by Quality](report_chart/report_chart1.png)
 ---
 
 ## 5. What I Would Do Next
